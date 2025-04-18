@@ -32,6 +32,8 @@ gopsgenerator.py:
 This is probably the most important file.
 Creates the new generation.
 Mutation Rate is 0-100.
+Breeding strategies is done via a one-point crossover.
+Mutations are left and right cycles, and pair swaps.
 Currently also adds two True/False at the end of each hand. This is because I am currently trying to simulate a gene pair.
 To remove the gene pair at the end comment out lines 26, 27, 28, 83, 86; and uncomment out lines 82 and 85.
 You will also need to go to geneticgops.py and comment out lines 25-33
